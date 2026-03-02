@@ -3,26 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet"href="style1.css">
 </head>
-<body>
-    <div class="box">
-       <p>this is first box</p>
+    <div class="msg-container hide">
+        <p id="winner">winner</p>
+        <button id="new-game">New Game</button>
     </div>
-    <div class="box">
-      <p>this is 2nd box</p>
+    <h1>Tic-Tac-Toe Game</h1>
+    <div class="container">
+    <div class="game">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
     </div>
-    <div class="box"onmouseover="console.log('you are on div')"><p>this is third box</p></div>
-    <h2>hello javascript</h2>
-    <h1 id="heading">first project</h1>
-    <p class="para">i am learning js currently</p>
-    <p class="para">it is very interesting</p>
-    <p>topic is DOM model</p>
-    <p>it contains dom manipulations like getelements by id,class or tag</p>
-    <button id="btn">click me</button>
-    <p class="myclass">i am a paragraph</p>
-    <button id="btn2">toggle</button>
+    </div>
+    <button id="reset-btn">Reset Game</button>
+    <script src="script2.js"></script>
 </body>
-<script src="script1.js"></script>
 </html>

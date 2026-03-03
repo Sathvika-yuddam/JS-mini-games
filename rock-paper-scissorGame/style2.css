@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color:#548687;
+}
+h1{
+    background-color:#0810b1;
+    color:white;
+    height:5rem;
+    line-height:5rem;
+}
+#newbtn{
+    background-color:#e3eb0d;
+    color:#ed0909;
+    display:inline;
+    font-size:1.5rem;
+    height:50px;
+    padding:1rem;
+    border-radius:1rem;
+    margin-top:3rem;
+    cursor:pointer
+}
+.symbol{
+    height:110px;
+    width:110px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+img{
+    height:100px;
+    width:100px;
+    object-fit:cover;
+    border-radius:50%;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:3rem;
+    margin-top:3rem;
+}
+.symbol:hover{
+    background-color:brown;
+    cursor:pointer;
+}
+.scoreboard{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:2rem;
+    gap:5rem;
+    margin-top:3rem;
+}
+#userscr,#compscr{
+    font-size:3rem;
+}
+#playbtn{
+    margin-top:5rem;
+}
+#msg{
+    background-color:#081b31;
+    color:#fff;
+    display:inline;
+    font-size:1.5rem;
+    height:50px;
+    padding:1rem;
+    border-radius:1rem;
+}

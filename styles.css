@@ -66,3 +66,16 @@ h1{
     }
 
 }
+@media (max-width:600px){
+
+    .games{
+        flex-direction: column;   /* stack items vertically */
+        align-items: center;      /* keep them centered */
+    }
+
+    .game{
+        width:80%;
+        max-width:300px;
+    }
+
+}

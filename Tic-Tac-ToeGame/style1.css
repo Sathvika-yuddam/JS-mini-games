@@ -78,12 +78,3 @@ h1{
     font-weight: bolder;
     font-size:40px;
 }
-@media (max-width:600px){
-
-    body{
-        background-size:cover; 
-        background-position: top;
-        background-color:black;  
-    }
-
-}

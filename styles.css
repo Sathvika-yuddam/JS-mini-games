@@ -69,12 +69,7 @@ h1{
         max-width:300px;
     }
 
-    body{
-        background-size: cover;
-        background-position: top;
-        background-color:black;
-    }
-
+   
 }
 .bcg{
     position:fixed;

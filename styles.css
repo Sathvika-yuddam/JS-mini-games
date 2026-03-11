@@ -10,6 +10,7 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
+    background-attachment:scroll;
 }
 
 h1{
@@ -57,20 +58,10 @@ h1{
     }
 
     .games{
+        flex-direction:column;
+        align-items:center;
         gap:20px;
         margin-top:20px;
-    }
-
-    .game{
-        max-width:150px;
-    }
-
-}
-@media (max-width:600px){
-
-    .games{
-        flex-direction: column;   /* stack items vertically */
-        align-items: center;      /* keep them centered */
     }
 
     .game{
@@ -78,12 +69,18 @@ h1{
         max-width:300px;
     }
 
-}
-@media (max-width:600px){
-
     body{
-        background-size:contain; 
-        background-color:black;  
+        background-size:contain;
+        background-color:black;
     }
 
+}
+.bcg{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index:-1;
 }

@@ -1,19 +1,21 @@
 # JS-mini-games
 Collection of simple Interactive mini games using HTML,CSS,JAVASCRIPT 
-🔗 Live Demo:
+
+### 🔗 Live Demo:
 https://sathvika-yuddam.github.io/JS-mini-games/
 
-🚀 About the Project
+## 🚀 About the Project
 
 This project contains small JavaScript games created to practice DOM manipulation, game logic, and responsive UI design.
 Each game runs directly in the browser without any external frameworks.
+
 The goal of this project is to improve my frontend development skills while building fun interactive applications.
 
-🕹️ Games Included
+## 🕹️ Games Included
 
-Currently the project contains:
+### Currently the project contains:
 
-❌⭕ Tic Tac Toe
+#### ❌⭕ Tic Tac Toe
 
 Two-player game
 
@@ -23,7 +25,7 @@ Reset and new game options
 
 Scoreboard for players
 
-✊✋✌ Rock Paper Scissors
+#### ✊✋✌ Rock Paper Scissors
 
 Play against the computer
 
@@ -33,9 +35,10 @@ Displays result (Win / Lose / Draw)
 
 Score tracking
 
+
 🎯 More mini games will be added in the future
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 HTML5
 
@@ -45,6 +48,7 @@ JavaScript (Vanilla JS)
 
 GitHub Pages for deployment
 
+## project structure
 JS-mini-games
 │
 ├── index.html
@@ -61,7 +65,7 @@ JS-mini-games
     ├── style.css
     └── script.js
 
-📈 Future Improvements
+## 📈 Future Improvements
 
 Add more mini games
 

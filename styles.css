@@ -21,13 +21,16 @@ h1{
     display:flex;
     justify-content:center;
     align-items:center;
+    flex-wrap: wrap;
     margin-top:40px;
     gap:30px;
 }
 
 .game{
     height:200px;
-    width:200px;
+    width:90%;
+    max-width:200px;
+    aspect-ratio:1/1;
     display:inline-block;
     padding:10px;
     margin:20px;
@@ -45,4 +48,21 @@ h1{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius:10px;
+}
+@media (max-width:600px){
+
+    h1{
+        font-size:24px;
+    }
+
+    .games{
+        gap:20px;
+        margin-top:20px;
+    }
+
+    .game{
+        max-width:150px;
+    }
+
 }

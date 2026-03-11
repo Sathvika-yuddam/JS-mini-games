@@ -23,7 +23,7 @@ Shows winner when a player completes a line
 
 Reset and new game options
 
-Scoreboard for players
+Displays winner
 
 #### ✊✋✌ Rock Paper Scissors
 
@@ -33,8 +33,7 @@ Random computer choices
 
 Displays result (Win / Lose / Draw)
 
-Score tracking
-
+Displays score
 
 🎯 More mini games will be added in the future
 
@@ -49,6 +48,7 @@ JavaScript (Vanilla JS)
 GitHub Pages for deployment
 
 ## project structure
+```
 JS-mini-games
 │
 ├── index.html
@@ -64,7 +64,7 @@ JS-mini-games
     ├── index.html
     ├── style.css
     └── script.js
-
+```
 ## 📈 Future Improvements
 
 Add more mini games

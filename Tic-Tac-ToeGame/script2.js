@@ -24,7 +24,7 @@ boxes.forEach((box)=>{
             turn0=false;
         }
         else{
-            box.innerText='0'
+            box.innerText='O'
             turn0=true;
         }
         box.disabled=true;
@@ -48,7 +48,7 @@ resetbtn.addEventListener("click",()=>{
     }
 })
 const showwinner=(winner)=>{
-    msg.innerText=`congratulations,winner is ${winner}`;
+    msg.innerText=`congratulations!winner is ${winner}`;
     msgContainer.classList.remove("hide");
     for(box of boxes){
        box.disabled=true;

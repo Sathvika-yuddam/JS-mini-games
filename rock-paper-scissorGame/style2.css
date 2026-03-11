@@ -2,10 +2,24 @@
     margin:0;
     padding:0;
     text-align:center;
-    background-color:#548687;
+    
+
+}
+body{
+    margin:0;
+    padding:0;
+    min-height:100vh;   
+    width:100%;
+
+    background-image:url("bg.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    text-align:center;
 }
 h1{
-    background-color:#0810b1;
+    
     color:white;
     height:5rem;
     line-height:5rem;
@@ -16,10 +30,12 @@ h1{
     display:inline;
     font-size:1.5rem;
     height:50px;
-    padding:1rem;
+    padding:0 10px 0 10px;
     border-radius:1rem;
     margin-top:3rem;
-    cursor:pointer
+    cursor:pointer;
+    text-transform: capitalize;
+    font-weight:bolder;
 }
 .symbol{
     height:110px;
@@ -43,7 +59,7 @@ img{
     margin-top:3rem;
 }
 .symbol:hover{
-    background-color:brown;
+    background-color:rgb(194, 239, 29);
     cursor:pointer;
 }
 .scoreboard{
@@ -56,16 +72,33 @@ img{
 }
 #userscr,#compscr{
     font-size:3rem;
+    color:darkred;
+    background-color:#e2c044 ;
+    height:50px;
+    width:50px;
+    border-radius: 30%;
 }
 #playbtn{
     margin-top:5rem;
 }
 #msg{
-    background-color:#081b31;
+    background-color:#0d73e8;
     color:#fff;
     display:inline;
     font-size:1.5rem;
     height:50px;
     padding:1rem;
     border-radius:1rem;
+}
+.player{
+    text-transform: capitalize;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:azure;
+    border-radius: 5px;
+}
+.box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5px;
 }

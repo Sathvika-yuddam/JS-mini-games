@@ -14,7 +14,7 @@ const generatechoice=()=>{
 const playGame=(compchoice,userchoice)=>{
     if(compchoice===userchoice){
         msg.innerText="DRAW"
-        msg.style.backgroundColor="#081b31"
+        msg.style.backgroundColor="#0d73e8"
     }
    else if((compchoice=="rock"&&userchoice=="scissors")||(compchoice=="paper"&&userchoice=="rock")||(compchoice=="scissors"&&userchoice=="paper")){
     compscore++;
@@ -42,4 +42,5 @@ newbtn.addEventListener("click",()=>{
     uscr.innerText=0;
     cscr.innerText=0;
     msg.innerText="Play Your Move"
+    msg.style.backgroundColor="#0d73e8"
 })

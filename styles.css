@@ -70,7 +70,8 @@ h1{
     }
 
     body{
-        background-size:contain;
+        background-size: cover;
+        background-position: center;
         background-color:black;
     }
 
